@@ -1,0 +1,226 @@
+.plaster-regular {
+  font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Goldman', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #b6b4b4;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Plaster', system-ui;
+    font-size: 5em;
+    background-color: #333;
+}
+h2 {
+    color: #b6b4b4;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Goldman', system-ui;
+    font-size: 2.5em;
+    background-color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+.welcome {
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    font-family: 'Goldman', sans-serif;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbanner {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.navbanner a {
+    color: #b6b4b4;
+    background-color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'Plaster', system-ui;
+    transition-duration: 0.7s;
+}
+.navbanner a:hover {
+    background-color: #b6b4b4;
+    color: #000;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 24px;
+    transition-duration: 0.7s;
+    font-family: 'Plaster', system-ui;
+}
+.navbanner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.navfooter {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.navfooter a {
+    color: #b6b4b4;
+    background-color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'Plaster', system-ui;
+    transition-duration: 0.7s;
+}
+.navfooter a:hover {
+    background-color: #b6b4b4;
+    color: #000;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 24px;
+    transition-duration: 0.7s;
+    font-family: 'Plaster', system-ui;
+}
+.navfooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+input, textarea {
+    font-family: 'Goldman', sans-serif;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Plaster', system-ui;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+button:hover {
+    background-color: #b6b4b4;
+    color: #000;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 24px;
+    transition-duration: 0.7s;
+    font-family: 'Plaster', system-ui;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background: #333;
+    color: #b6b4b4;
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(.77,0,.175,1);
+    z-index: 9999;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    font-family: 'Goldman', sans-serif;
+}
+#sidebar-toggle:checked ~ .sidebar {
+    transform: translateX(0);
+}
+.sidebar-content {
+    padding: 30px 20px;
+}
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+.sidebar nav ul li a {
+    color: #b6b4b4;
+    text-decoration: none;
+    font-family: 'Plaster', system-ui;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-media ul li {
+    margin-bottom: 10px;
+}
+.social-media ul li a {
+    color: #b6b4b4;
+    text-decoration: none;
+    font-family: 'Goldman', sans-serif;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+.social-media ul li a:hover {
+    color: #fff;
+}
+.sidebar-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 2.5em;
+    color: #b6b4b4;
+    background: #333;
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 10000;
+    font-family: 'Plaster', system-ui;
+    transition: background 0.3s;
+}
+.sidebar-icon:hover {
+    background: #b6b4b4;
+    color: #333;
+}
+.close-btn {
+    font-size: 2em;
+    color: #b6b4b4;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Plaster', system-ui;
+}
+@media (max-width: 600px) {
+    .sidebar {
+        width: 80vw;
+    }
+}
